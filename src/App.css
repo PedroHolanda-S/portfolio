@@ -1,0 +1,32 @@
+footer {
+  background-color: #111; /* Fundo escuro */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer h3 {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+footer .github-link {
+  text-decoration: none; /* Remove o sublinhado */
+  color: #9b4dff; /* Cor inicial do link (roxo) */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Transição suave de cor */
+}
+
+footer .github-link:hover {
+  color: #ff8c00; /* Cor para o hover (laranja suave) */
+}
+
+footer h3:first-child {
+  font-size: 1rem;
+}
+
+footer h3:last-child {
+  font-size: 1rem;
+}

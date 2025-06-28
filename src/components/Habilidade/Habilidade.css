@@ -1,0 +1,31 @@
+/* Estilos básicos para cada habilidade */
+.batata{
+  background-color: #9b59b6; /* Cor roxa suave */
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.batata p{
+  margin: 0;
+  font-weight: bold;
+}
+
+.batata:hover{
+  transform: translateY(-5px);
+  background-color: #8e44ad; /* Cor roxa mais intensa ao passar o mouse */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px){
+  .batata {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}

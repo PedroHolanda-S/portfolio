@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.Navigation{
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem
+}

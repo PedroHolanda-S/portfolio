@@ -1,0 +1,59 @@
+.little-seccao {
+  background-color: #dcd0ff; /* Roxo claro */
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(106, 13, 173, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.little-seccao:hover {
+  transform: translateY(-5px);
+  background-color: #c2a2ff;
+}
+
+.little-seccao h3 {
+  color: #4b0082; /* Índigo roxo */
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.little-seccao p {
+  color: #333;
+  font-size: 0.95rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.little-seccao a {
+  text-decoration: none;
+  background-color: #6a0dad;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.little-seccao a:hover {
+  background-color: #4b0082;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+  .little-seccao {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .little-seccao h3 {
+    font-size: 1rem;
+  }
+
+  .little-seccao p {
+    font-size: 0.9rem;
+  }
+}

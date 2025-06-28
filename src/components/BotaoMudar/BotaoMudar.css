@@ -1,0 +1,44 @@
+.contador-container {
+  text-align: center;
+  padding: 40px;
+  background-color: #f3e8ff;
+  color: #4a0072;
+  font-family: Arial, sans-serif;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(106, 13, 173, 0.1);
+}
+
+.valor {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #6a0dad;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a0072;
+}
+
+@media (max-width: 500px) {
+  .botoes {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

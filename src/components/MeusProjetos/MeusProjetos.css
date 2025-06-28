@@ -1,0 +1,29 @@
+.cyn {
+  background-color: #f8f0fc;
+}
+.big-seccao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f8f0fc; /* Lavanda clara */
+}
+
+h2 {
+  text-align: center;
+  color: #6a0dad; /* Roxo escuro */
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .big-seccao {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
