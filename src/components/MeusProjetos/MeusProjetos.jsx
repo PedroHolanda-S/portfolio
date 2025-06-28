@@ -1,6 +1,6 @@
 import './MeusProjetos.css'
 
-import MeuProjeto from '../MeuProjeto/MeuProjeto.JSX'
+import MeuProjeto from '../MeuProjeto/MeuProjeto.jsx'
 
 function MeusProjetos() {
 
